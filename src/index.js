@@ -18,7 +18,7 @@ const PORT = process.env.PORT
 
 app.use(cookieparser())
 app.use(cors({
-    origin: ["http://localhost:5173", "https://your-frontend.vercel.app"],
+    origin: ["http://localhost:5173"],
     credentials: true,
   }));
   
